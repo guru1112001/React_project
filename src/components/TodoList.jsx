@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "../style.css";
 
 const TodoList = () => {
 
@@ -17,7 +18,7 @@ const TodoList = () => {
         SetInput(e.target.value)
     }
   return (
-    <div>
+    <div className="container">
         <h1>todo list</h1>
         <form onSubmit={handleSubmit}>
             {/* <label htmlFor="task">task</label> */}

@@ -23,10 +23,19 @@ import UserProfile from "./components/UserProfile";
 import { UserProvider } from "./components/UserContext";
 import Updateuser from "./components/Updateuser";
 import Counters from "./components/Counters"
+import FocusInput from "./components/FocusInput";
+import Timer from "./components/Timer";
+import PracticeCounter from "./components/PracticeCounter";
+import Meal from "./components/Meal";
+import Calculator from "./components/Calculator";
+import ToogleBackgroundcolor from "./components/ToogleBackgroundcolor";
 const App = () => {
   return (
     
     <div>
+      {/* <Meal/> */}
+      {/* <Calculator/> */}
+      <ToogleBackgroundcolor/>
       
       {/* <Weather temperature={0}/> */}
     {/* <UserStatus loggedIn={true} IsAdmin={true}/>
@@ -38,8 +47,8 @@ const App = () => {
     {/* <BasicEffect />
     <CounterEffect /> */}
     {/* <FetchDataEffect /> */}
-    {/* <TodoList />
-    <ShopingCart /> */}
+    {/* <TodoList /> */}
+    {/* <ShopingCart /> */}
       {/* <Person name='guru' age={22} /> */}
       {/* <Product name='Laptop' price={599} /> */}
       {/* <Header /> */}
@@ -54,7 +63,10 @@ const App = () => {
       <UserProfile />
       <Updateuser />
       </UserProvider> */}
-      <Counters />
+      {/* <Counters />
+      <FocusInput />
+      <Timer/> */}
+      {/* <PracticeCounter/> */}
     </div>
   )
 }
